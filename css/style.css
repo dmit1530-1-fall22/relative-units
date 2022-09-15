@@ -1,0 +1,17 @@
+html {
+    /* this is to set to default 16px  */
+    font-size: 100%;
+
+    /* i now want 18px default font size */
+
+    font-size: calc(18 / 16 * 100%);
+
+}
+
+/*  fontsize - 60px */
+/* desired / default */
+/*  60 / 16 */
+h1 {
+    /* font-size: 3.75rem; */
+    font-size: calc(60 / 18 * 1rem);
+}
